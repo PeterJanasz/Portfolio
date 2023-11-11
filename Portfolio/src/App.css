@@ -40,3 +40,27 @@
 .read-the-docs {
   color: #888;
 }
+
+html {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/abstract-background-design-images-wallpaper-ai-generated_643360-80568.avif');
+  background-size: cover;
+}
+
+.stacked-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+}
+
+.card {
+  transform: translateY(-50%);
+  transition: transform 0.5s;
+}
+
+.card + .card {
+  margin-left: -2rem; /* Adjust the margin to control the overlap */
+}

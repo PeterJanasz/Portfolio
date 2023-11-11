@@ -1,14 +1,17 @@
 import './App.css'
+import React from "react";
 import { Outlet } from 'react-router-dom';
-import Nav from './components/Navigation';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
 
   return (
     <>
-    <Nav />
-    <main className="mx-3">
+    <main className="mx-3 pb-16">
+      <Header />
       <Outlet />
+      <Footer />
     </main>
   </>
 );
