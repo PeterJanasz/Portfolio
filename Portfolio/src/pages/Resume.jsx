@@ -2,7 +2,7 @@ import React from 'react';
 import { FaGithub, FaFilePdf } from 'react-icons/fa';
 
 const TechCard = ({ title, techList }) => (
-  <div className="max-w-xs bg-transparent rounded overflow-hidden shadow-md mx-2">
+  <div className="max-w-xs bg-transparent rounded overflow-hidden shadow-xl mx-10 bg-blue-500 shadow-blue-500/50">
     <div className="px-6 py-4 bg-white bg-opacity-0 backdrop-blur-md">
       <div className="font-bold text-xl mb-2">{title}</div>
       <ul className="list-disc space-y-1 flex flex-col items-center">
