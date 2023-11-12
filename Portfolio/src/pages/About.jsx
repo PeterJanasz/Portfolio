@@ -1,4 +1,5 @@
 import React from 'react';
+import TypingText from '../components/TypingText';
 
 const About = () => {
   return (
@@ -9,8 +10,9 @@ const About = () => {
           alt="Portrait"
           className="w-40 h-auto rounded-full"
         />
+        <TypingText />
       <div className="max-w-screen-xl bg-transparent rounded overflow-hidden shadow-md mx-10">
-        <div className="px-6 py-4 bg-white bg-opacity-0 backdrop-blur-md">
+        <div className="px-6 py-4 bg-white bg-opacity-0 bg-blue-500 shadow-blue-500/50">
           <p className="text-gray-700">
             I am a first-generation American, born in Chicago, IL. Raised by parents who migrated from Poland in 1980,
             I developed a global perspective from an early age. My summers were spent visiting family in Poland and

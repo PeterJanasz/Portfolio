@@ -64,3 +64,7 @@ html {
 .card + .card {
   margin-left: -2rem; /* Adjust the margin to control the overlap */
 }
+
+.Typewriter__cursor {
+  opacity: 0;
+}

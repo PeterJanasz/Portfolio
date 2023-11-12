@@ -17,9 +17,9 @@ const TechCard = ({ title, techList }) => (
 );
 
 const Resume = () => {
-  const frontEndTech = ["HTML5", "CSS", "JavaScript", "APIs", "Bootstrap", "GIT"];
-  const backEndTech = ["Node.Js", "Jest", "Express.js", "MySQL", "Sequelize", "Object-Relational Mapping(ORM)", "Model-View-Controller (MVC)"];
-  const performanceTech = ["NoSQL", "Progressive Web Applications (PWA)", "MongoDB", "Mongoose", "GraphQL", "React", "MERN", "State"];
+  const frontEndTech = ["HTML5", "CSS", "JavaScript", "APIs", "Bootstrap", "Tailwind", "GIT"];
+  const backEndTech = ["Node.Js", "Jest", "Express.js", "MySQL", "Sequelize","(ORM)", "Object-Relational Mapping", "(MVC)", "Model-View-Controller"];
+  const performanceTech = ["NoSQL", "MongoDB", "Mongoose", "GraphQL", "React", "MERN", "State", "(PWA)", "Progressive Web Applications"];
 
   const handleDownload = () => {
     // Replace the 'PeterJanaszResume.pdf' with your actual resume file name
@@ -53,7 +53,7 @@ const Resume = () => {
           Download Resume
         </button>
 
-        {/* GitHub Link */}
+        {/* GitHub Link
         <a
           href="https://github.com/PeterJanasz?tab=repositories" // Replace with your GitHub repo URL
           target="_blank"
@@ -62,10 +62,10 @@ const Resume = () => {
         >
           <FaGithub className="w-6 h-6" />
           <p className="m-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">GitHub Repository</p>
-        </a>
+        </a> */}
 
       </div>
-
+      <h1 className="text-2xl font-bold py-4">Skill Set</h1>
       <section id="home-page-body" className="resume-body mb-4">
         <div className="flex space-x-4 justify-center">
           {/* Front-End Tech Card */}
