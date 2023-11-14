@@ -10,35 +10,35 @@ const Projects = () => {
       description: 'Project description goes here.',
     },
     {
-        title: 'Recipe App',
-        imageSrc: '/images/FoodMakerApp.png',
-        projectLink: 'https://peterjanasz.github.io/Recipe-Finder-App/',
-        description: 'Project description goes here.',
-      },
-      {
-        title: 'Weather App',
-        imageSrc: '/images/weatherApp.png',
-        projectLink: 'https://peterjanasz.github.io/Weather-Dashboard-M6/',
-        description: 'Project description goes here.',
-      },
-      {
-        title: 'Weather App',
-        imageSrc: '/images/weatherApp.png',
-        projectLink: 'https://peterjanasz.github.io/Weather-Dashboard-M6/',
-        description: 'Project description goes here.',
-      },
-      {
-        title: 'Weather App',
-        imageSrc: '/images/weatherApp.png',
-        projectLink: 'https://peterjanasz.github.io/Weather-Dashboard-M6/',
-        description: 'Project description goes here.',
-      },
-      {
-        title: 'Weather App',
-        imageSrc: '/images/weatherApp.png',
-        projectLink: 'https://peterjanasz.github.io/Weather-Dashboard-M6/',
-        description: 'Project description goes here.',
-      },
+      title: 'Recipe App',
+      imageSrc: '/images/FoodMakerApp.png',
+      projectLink: 'https://peterjanasz.github.io/Recipe-Finder-App/',
+      description: 'Project description goes here.',
+    },
+    {
+      title: 'Weather App',
+      imageSrc: '/images/weatherApp.png',
+      projectLink: 'https://peterjanasz.github.io/Weather-Dashboard-M6/',
+      description: 'Project description goes here.',
+    },
+    {
+      title: 'Weather App',
+      imageSrc: '/images/weatherApp.png',
+      projectLink: 'https://peterjanasz.github.io/Weather-Dashboard-M6/',
+      description: 'Project description goes here.',
+    },
+    {
+      title: 'Weather App',
+      imageSrc: '/images/weatherApp.png',
+      projectLink: 'https://peterjanasz.github.io/Weather-Dashboard-M6/',
+      description: 'Project description goes here.',
+    },
+    {
+      title: 'Weather App',
+      imageSrc: '/images/weatherApp.png',
+      projectLink: 'https://peterjanasz.github.io/Weather-Dashboard-M6/',
+      description: 'Project description goes here.',
+    },
     // Add more project data as needed
   ];
 

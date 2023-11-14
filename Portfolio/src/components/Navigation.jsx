@@ -16,13 +16,13 @@ function NavTabs() {
         </Link>
       </li>
       <li className="nav-item">
-        <Link to="/Contact" className="py-2 px-4 text-white hover:bg-blue-700 rounded">
-          Contact
+        <Link to="/Resume" className="py-2 px-4 text-white hover:bg-blue-700 rounded">
+          Resume
         </Link>
       </li>
       <li className="nav-item">
-        <Link to="/Resume" className="py-2 px-4 text-white hover:bg-blue-700 rounded">
-          Resume
+        <Link to="/Contact" className="py-2 px-4 text-white hover:bg-blue-700 rounded">
+          Contact
         </Link>
       </li>
     </ul>

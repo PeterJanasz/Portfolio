@@ -6,11 +6,11 @@ const About = () => {
     <div className="flex flex-col justify-center items-center">
       <h1 className="text-2xl font-bold py-4">About Me</h1>
       <img
-          src="images/PeterJanaszPortrait.jpg"
-          alt="Portrait"
-          className="w-40 h-auto rounded-full"
-        />
-        <TypingText />
+        src="images/PeterJanaszPortrait.jpg"
+        alt="Portrait"
+        className="w-40 h-auto rounded-full"
+      />
+      <TypingText />
       <div className="max-w-screen-xl bg-transparent rounded overflow-hidden shadow-xl mx-10 bg-blue-500 shadow-blue-500/50">
         <div className="px-6 py-4 bg-white bg-opacity-0">
           <p className="text-gray-700">

@@ -18,11 +18,10 @@ const TechCard = ({ title, techList }) => (
 
 const Resume = () => {
   const frontEndTech = ["HTML5", "CSS", "JavaScript", "APIs", "Bootstrap", "Tailwind", "GIT"];
-  const backEndTech = ["Node.Js", "Jest", "Express.js", "MySQL", "Sequelize","(ORM)", "Object-Relational Mapping", "(MVC)", "Model-View-Controller"];
-  const performanceTech = ["NoSQL", "MongoDB", "Mongoose", "GraphQL", "React", "MERN", "State", "(PWA)", "Progressive Web Applications"];
+  const backEndTech = ["Node.Js", "Jest", "Express.js", "MySQL", "Sequelize", "(ORM)", "Object-Relational Mapping", "(MVC)", "Model-View-Controller"];
+  const advancedWebTech = ["NoSQL", "MongoDB", "Mongoose", "GraphQL", "React", "MERN", "State", "(PWA)", "Progressive Web Applications"];
 
   const handleDownload = () => {
-    // Replace the 'PeterJanaszResume.pdf' with your actual resume file name
     const resumeFileName = 'PeterJanaszResume.pdf';
 
     // Create a link element
@@ -75,7 +74,7 @@ const Resume = () => {
           <TechCard title="Back-End Tech" techList={backEndTech} />
 
           {/* Performance Tech Card */}
-          <TechCard title="Performance Tech" techList={performanceTech} />
+          <TechCard title="Advanced Web" techList={advancedWebTech} />
         </div>
       </section>
     </div>
