@@ -1,7 +1,10 @@
+// Importing React library and the ProjectCard component
 import React from 'react';
-import ProjectCard from '../components/ProjectCard'; // Adjust the path based on your project structure
+import ProjectCard from '../components/ProjectCard';
 
+// Functional component representing a section to display a list of projects
 const Projects = () => {
+  // Array of project data, each containing title, image source, project link, and description
   const projectData = [
     {
       title: 'Movie Ticket Site',
@@ -42,10 +45,15 @@ const Projects = () => {
     // Add more project data as needed
   ];
 
-  return (
+   // Rendering the Projects component
+   return (
     <div>
+      {/* Header for the section */}
       <header className="text-2xl font-bold py-4">My Work</header>
+      
+      {/* Grid for displaying projects in a responsive layout */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {/* Mapping over the projectData array and rendering ProjectCard for each project */}
         {projectData.map((project, index) => (
           <ProjectCard key={index} {...project} />
         ))}
@@ -54,4 +62,5 @@ const Projects = () => {
   );
 };
 
+// Exporting the Projects component to make it available for use in other parts of the application
 export default Projects;
